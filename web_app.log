@@ -1,0 +1,40 @@
+{"level":"DEBUG","time":"2020-11-16T20:58:44.972-0500","caller":"web_app/main.go:38","msg":"logger init success"}
+{"level":"ERROR","time":"2020-11-16T20:58:47.022-0500","caller":"mysql/mysql.go:28","msg":"connect DB failed, err:%v\n","error":"dial tcp 127.0.0.1:13306: connectex: No connection could be made because the target machine actively refused it."}
+{"level":"DEBUG","time":"2020-11-16T21:03:56.857-0500","caller":"web_app/main.go:38","msg":"logger init success"}
+{"level":"DEBUG","time":"2020-11-16T21:05:00.372-0500","caller":"web_app/main.go:38","msg":"logger init success"}
+{"level":"DEBUG","time":"2020-11-16T21:10:22.448-0500","caller":"web_app/main.go:38","msg":"logger init success"}
+{"level":"DEBUG","time":"2020-11-16T21:11:08.212-0500","caller":"web_app/main.go:39","msg":"logger init success"}
+{"level":"DEBUG","time":"2020-11-16T21:11:18.176-0500","caller":"web_app/main.go:39","msg":"logger init success"}
+{"level":"DEBUG","time":"2020-11-16T21:14:02.562-0500","caller":"web_app/main.go:39","msg":"logger init success"}
+{"level":"DEBUG","time":"2020-11-16T21:14:43.662-0500","caller":"web_app/main.go:39","msg":"logger init success"}
+{"level":"DEBUG","time":"2020-11-16T21:15:41.558-0500","caller":"web_app/main.go:38","msg":"logger init success"}
+{"level":"DEBUG","time":"2020-11-16T21:32:08.502-0500","caller":"web_app/main.go:37","msg":"logger init success"}
+{"level":"INFO","time":"2020-11-16T21:32:33.110-0500","caller":"web_app/main.go:76","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2020-11-16T21:32:33.611-0500","caller":"web_app/main.go:85","msg":"Server exiting"}
+{"level":"DEBUG","time":"2020-11-16T21:46:25.587-0500","caller":"web_app/main.go:37","msg":"logger init success"}
+{"level":"INFO","time":"2020-11-16T21:46:31.486-0500","caller":"web_app/main.go:76","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2020-11-16T21:46:31.988-0500","caller":"web_app/main.go:85","msg":"Server exiting"}
+{"level":"DEBUG","time":"2020-11-16T21:46:55.458-0500","caller":"web_app/main.go:38","msg":"logger init success"}
+{"level":"INFO","time":"2020-11-16T21:47:08.730-0500","caller":"web_app/main.go:77","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2020-11-16T21:47:09.231-0500","caller":"web_app/main.go:86","msg":"Server exiting"}
+{"level":"DEBUG","time":"2020-11-16T21:48:07.878-0500","caller":"web_app/main.go:38","msg":"logger init success"}
+{"level":"INFO","time":"2020-11-16T21:50:30.948-0500","caller":"logger/logger.go:73","msg":"/","status":200,"method":"GET","path":"/","query":"","ip":"::1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36 Edg/86.0.622.69","errors":"","cost":0}
+{"level":"INFO","time":"2020-11-16T21:50:30.990-0500","caller":"logger/logger.go:73","msg":"/favicon.ico","status":404,"method":"GET","path":"/favicon.ico","query":"","ip":"::1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36 Edg/86.0.622.69","errors":"","cost":0}
+{"level":"INFO","time":"2020-11-16T21:50:56.763-0500","caller":"logger/logger.go:73","msg":"/","status":200,"method":"GET","path":"/","query":"","ip":"::1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36 Edg/86.0.622.69","errors":"","cost":0}
+{"level":"INFO","time":"2020-11-16T21:50:57.332-0500","caller":"logger/logger.go:73","msg":"/","status":200,"method":"GET","path":"/","query":"","ip":"::1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36 Edg/86.0.622.69","errors":"","cost":0}
+{"level":"INFO","time":"2020-11-16T21:50:57.526-0500","caller":"logger/logger.go:73","msg":"/","status":200,"method":"GET","path":"/","query":"","ip":"::1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36 Edg/86.0.622.69","errors":"","cost":0}
+{"level":"INFO","time":"2020-11-16T21:50:57.678-0500","caller":"logger/logger.go:73","msg":"/","status":200,"method":"GET","path":"/","query":"","ip":"::1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36 Edg/86.0.622.69","errors":"","cost":0}
+{"level":"INFO","time":"2020-11-16T21:50:57.841-0500","caller":"logger/logger.go:73","msg":"/","status":200,"method":"GET","path":"/","query":"","ip":"::1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36 Edg/86.0.622.69","errors":"","cost":0}
+{"level":"INFO","time":"2020-11-16T21:50:58.023-0500","caller":"logger/logger.go:73","msg":"/","status":200,"method":"GET","path":"/","query":"","ip":"::1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36 Edg/86.0.622.69","errors":"","cost":0}
+{"level":"INFO","time":"2020-11-16T21:51:34.562-0500","caller":"web_app/main.go:77","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2020-11-16T21:51:35.071-0500","caller":"web_app/main.go:86","msg":"Server exiting"}
+{"level":"DEBUG","time":"2020-11-17T15:57:30.273-0500","caller":"web_app/main.go:38","msg":"logger init success"}
+{"level":"INFO","time":"2020-11-17T15:57:58.939-0500","caller":"logger/logger.go:73","msg":"/","status":200,"method":"GET","path":"/","query":"","ip":"::1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36 Edg/86.0.622.69","errors":"","cost":0}
+{"level":"INFO","time":"2020-11-17T15:58:14.977-0500","caller":"logger/logger.go:73","msg":"/","status":200,"method":"GET","path":"/","query":"","ip":"::1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36 Edg/86.0.622.69","errors":"","cost":0.0009998}
+{"level":"INFO","time":"2020-11-17T15:58:20.170-0500","caller":"web_app/main.go:77","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2020-11-17T15:58:20.672-0500","caller":"web_app/main.go:86","msg":"Server exiting"}
+{"level":"INFO","time":"2020-11-17T16:47:32.191-0500","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-11-17T16:47:32.192-0500","caller":"web_app/main.go:36","msg":"logger init success"}
+{"level":"INFO","time":"2020-11-17T16:47:44.949-0500","caller":"logger/logger.go:79","msg":"/","status":200,"method":"GET","path":"/","query":"","ip":"::1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36 Edg/86.0.622.69","errors":"","cost":0}
+{"level":"INFO","time":"2020-11-17T16:47:57.738-0500","caller":"web_app/main.go:75","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2020-11-17T16:47:58.239-0500","caller":"web_app/main.go:84","msg":"Server exiting"}
