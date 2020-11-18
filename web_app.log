@@ -38,3 +38,87 @@
 {"level":"INFO","time":"2020-11-17T16:47:44.949-0500","caller":"logger/logger.go:79","msg":"/","status":200,"method":"GET","path":"/","query":"","ip":"::1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36 Edg/86.0.622.69","errors":"","cost":0}
 {"level":"INFO","time":"2020-11-17T16:47:57.738-0500","caller":"web_app/main.go:75","msg":"Shutdown Server ..."}
 {"level":"INFO","time":"2020-11-17T16:47:58.239-0500","caller":"web_app/main.go:84","msg":"Server exiting"}
+{"level":"INFO","time":"2020-11-17T20:31:17.964-0500","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-11-17T20:31:17.965-0500","caller":"Gin_Scaffold/main.go:36","msg":"logger init success"}
+{"level":"INFO","time":"2020-11-17T20:31:34.132-0500","caller":"logger/logger.go:79","msg":"/","status":200,"method":"GET","path":"/","query":"","ip":"::1","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36","errors":"","cost":0.000075934}
+{"level":"INFO","time":"2020-11-17T20:31:34.396-0500","caller":"logger/logger.go:79","msg":"/favicon.ico","status":404,"method":"GET","path":"/favicon.ico","query":"","ip":"::1","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36","errors":"","cost":0.000000767}
+{"level":"INFO","time":"2020-11-17T20:31:48.311-0500","caller":"Gin_Scaffold/main.go:75","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2020-11-17T20:31:48.815-0500","caller":"Gin_Scaffold/main.go:84","msg":"Server exiting"}
+{"level":"INFO","time":"2020-11-17T21:09:30.314-0500","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-11-17T21:09:30.315-0500","caller":"Gin_Scaffold/main.go:36","msg":"logger init success"}
+{"level":"INFO","time":"2020-11-17T21:09:37.883-0500","caller":"Gin_Scaffold/main.go:75","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2020-11-17T21:09:38.388-0500","caller":"Gin_Scaffold/main.go:84","msg":"Server exiting"}
+{"level":"INFO","time":"2020-11-17T22:16:31.399-0500","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-11-17T22:16:31.400-0500","caller":"Gin_Scaffold/main.go:37","msg":"logger init success"}
+{"level":"INFO","time":"2020-11-17T22:17:34.720-0500","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-11-17T22:17:34.721-0500","caller":"Gin_Scaffold/main.go:37","msg":"logger init success"}
+{"level":"INFO","time":"2020-11-17T22:17:50.887-0500","caller":"Gin_Scaffold/main.go:81","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2020-11-17T22:17:51.392-0500","caller":"Gin_Scaffold/main.go:90","msg":"Server exiting"}
+{"level":"INFO","time":"2020-11-17T23:03:31.998-0500","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-11-17T23:03:31.999-0500","caller":"Gin_Scaffold/main.go:37","msg":"logger init success"}
+{"level":"INFO","time":"2020-11-17T23:06:41.667-0500","caller":"logger/logger.go:79","msg":"/signup","status":200,"method":"OPTIONS","path":"/signup","query":"","ip":"::1","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36","errors":"","cost":0.000085085}
+{"level":"INFO","time":"2020-11-17T23:12:40.493-0500","caller":"logger/logger.go:79","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"::1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.000527345}
+{"level":"INFO","time":"2020-11-17T23:13:09.218-0500","caller":"logger/logger.go:79","msg":"/signup","status":200,"method":"GET","path":"/signup","query":"","ip":"::1","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36","errors":"","cost":0.000067933}
+{"level":"INFO","time":"2020-11-17T23:13:17.142-0500","caller":"logger/logger.go:79","msg":"/","status":200,"method":"GET","path":"/","query":"","ip":"::1","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36","errors":"","cost":0.000013521}
+{"level":"INFO","time":"2020-11-17T23:13:22.089-0500","caller":"logger/logger.go:79","msg":"/nopage","status":200,"method":"GET","path":"/nopage","query":"","ip":"::1","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36","errors":"","cost":0.000032231}
+{"level":"INFO","time":"2020-11-17T23:13:58.188-0500","caller":"logger/logger.go:79","msg":"/signup","status":200,"method":"GET","path":"/signup","query":"","ip":"::1","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36","errors":"","cost":0.000017628}
+{"level":"INFO","time":"2020-11-17T23:27:27.823-0500","caller":"Gin_Scaffold/main.go:81","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2020-11-17T23:27:27.838-0500","caller":"Gin_Scaffold/main.go:90","msg":"Server exiting"}
+{"level":"INFO","time":"2020-11-17T23:27:32.254-0500","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-11-17T23:27:32.254-0500","caller":"Gin_Scaffold/main.go:37","msg":"logger init success"}
+{"level":"ERROR","time":"2020-11-17T23:27:45.200-0500","caller":"controller/user.go:25","msg":"SignUp with invalid param"}
+{"level":"INFO","time":"2020-11-17T23:27:45.200-0500","caller":"logger/logger.go:79","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"::1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.000383493}
+{"level":"ERROR","time":"2020-11-17T23:27:49.398-0500","caller":"controller/user.go:25","msg":"SignUp with invalid param"}
+{"level":"INFO","time":"2020-11-17T23:27:49.399-0500","caller":"logger/logger.go:79","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"::1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.000215792}
+{"level":"INFO","time":"2020-11-17T23:43:58.869-0500","caller":"Gin_Scaffold/main.go:81","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2020-11-17T23:43:59.374-0500","caller":"Gin_Scaffold/main.go:90","msg":"Server exiting"}
+{"level":"INFO","time":"2020-11-17T23:44:02.533-0500","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-11-17T23:44:02.533-0500","caller":"Gin_Scaffold/main.go:37","msg":"logger init success"}
+{"level":"INFO","time":"2020-11-17T23:44:08.237-0500","caller":"logger/logger.go:79","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"::1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.00041678}
+{"level":"INFO","time":"2020-11-17T23:44:13.325-0500","caller":"logger/logger.go:79","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"::1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.000186901}
+{"level":"INFO","time":"2020-11-17T23:44:18.240-0500","caller":"logger/logger.go:79","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"::1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.000083568}
+{"level":"INFO","time":"2020-11-17T23:44:21.824-0500","caller":"logger/logger.go:79","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"::1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.000062676}
+{"level":"INFO","time":"2020-11-17T23:44:23.019-0500","caller":"logger/logger.go:79","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"::1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.000061833}
+{"level":"INFO","time":"2020-11-17T23:45:32.683-0500","caller":"Gin_Scaffold/main.go:81","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2020-11-17T23:45:33.188-0500","caller":"Gin_Scaffold/main.go:90","msg":"Server exiting"}
+{"level":"INFO","time":"2020-11-17T23:45:36.219-0500","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-11-17T23:45:36.219-0500","caller":"Gin_Scaffold/main.go:37","msg":"logger init success"}
+{"level":"ERROR","time":"2020-11-17T23:45:40.133-0500","caller":"controller/user.go:17","msg":"SignUp with invalid param","error":"Key: 'ParamSignUp.RePassword' Error:Field validation for 'RePassword' failed on the 'required' tag"}
+{"level":"INFO","time":"2020-11-17T23:45:40.134-0500","caller":"logger/logger.go:79","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"::1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.000445891}
+{"level":"ERROR","time":"2020-11-17T23:45:56.795-0500","caller":"controller/user.go:17","msg":"SignUp with invalid param","error":"Key: 'ParamSignUp.RePassword' Error:Field validation for 'RePassword' failed on the 'required' tag"}
+{"level":"INFO","time":"2020-11-17T23:45:56.795-0500","caller":"logger/logger.go:79","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"::1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.000205529}
+{"level":"ERROR","time":"2020-11-17T23:46:01.562-0500","caller":"controller/user.go:17","msg":"SignUp with invalid param","error":"Key: 'ParamSignUp.RePassword' Error:Field validation for 'RePassword' failed on the 'required' tag"}
+{"level":"INFO","time":"2020-11-17T23:46:01.562-0500","caller":"logger/logger.go:79","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"::1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.000139343}
+{"level":"INFO","time":"2020-11-17T23:46:11.627-0500","caller":"logger/logger.go:79","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"::1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.000060072}
+{"level":"INFO","time":"2020-11-17T23:46:24.826-0500","caller":"Gin_Scaffold/main.go:81","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2020-11-17T23:46:25.329-0500","caller":"Gin_Scaffold/main.go:90","msg":"Server exiting"}
+{"level":"INFO","time":"2020-11-18T00:22:40.104-0500","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-11-18T00:22:40.104-0500","caller":"Gin_Scaffold/main.go:38","msg":"logger init success"}
+{"level":"ERROR","time":"2020-11-18T00:22:47.126-0500","caller":"controller/user.go:18","msg":"SignUp with invalid param","error":"Key: 'ParamSignUp.RePassword' Error:Field validation for 'RePassword' failed on the 'eqfield' tag"}
+{"level":"INFO","time":"2020-11-18T00:22:47.127-0500","caller":"logger/logger.go:79","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"::1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.000838395}
+{"level":"INFO","time":"2020-11-18T00:22:55.026-0500","caller":"logger/logger.go:79","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"::1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.000085688}
+{"level":"ERROR","time":"2020-11-18T00:22:59.161-0500","caller":"controller/user.go:18","msg":"SignUp with invalid param","error":"Key: 'ParamSignUp.RePassword' Error:Field validation for 'RePassword' failed on the 'eqfield' tag"}
+{"level":"INFO","time":"2020-11-18T00:22:59.162-0500","caller":"logger/logger.go:79","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"::1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.000243958}
+{"level":"ERROR","time":"2020-11-18T00:23:03.742-0500","caller":"controller/user.go:18","msg":"SignUp with invalid param","error":"Key: 'ParamSignUp.RePassword' Error:Field validation for 'RePassword' failed on the 'required' tag"}
+{"level":"INFO","time":"2020-11-18T00:23:03.742-0500","caller":"logger/logger.go:79","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"::1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.000200391}
+{"level":"ERROR","time":"2020-11-18T00:23:10.753-0500","caller":"controller/user.go:18","msg":"SignUp with invalid param","error":"Key: 'ParamSignUp.Password' Error:Field validation for 'Password' failed on the 'required' tag\nKey: 'ParamSignUp.RePassword' Error:Field validation for 'RePassword' failed on the 'eqfield' tag"}
+{"level":"INFO","time":"2020-11-18T00:23:10.753-0500","caller":"logger/logger.go:79","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"::1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.000178074}
+{"level":"INFO","time":"2020-11-18T00:24:38.017-0500","caller":"Gin_Scaffold/main.go:87","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2020-11-18T00:24:38.522-0500","caller":"Gin_Scaffold/main.go:96","msg":"Server exiting"}
+{"level":"INFO","time":"2020-11-18T00:24:42.534-0500","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-11-18T00:24:42.534-0500","caller":"Gin_Scaffold/main.go:37","msg":"logger init success"}
+{"level":"INFO","time":"2020-11-18T00:24:47.527-0500","caller":"logger/logger.go:79","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"::1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.000318879}
+{"level":"ERROR","time":"2020-11-18T00:24:50.878-0500","caller":"controller/user.go:18","msg":"SignUp with invalid param","error":"Key: 'ParamSignUp.RePassword' Error:Field validation for 'RePassword' failed on the 'eqfield' tag"}
+{"level":"INFO","time":"2020-11-18T00:24:50.878-0500","caller":"logger/logger.go:79","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"::1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.000168404}
+{"level":"ERROR","time":"2020-11-18T00:25:11.095-0500","caller":"controller/user.go:18","msg":"SignUp with invalid param","error":"Key: 'ParamSignUp.RePassword' Error:Field validation for 'RePassword' failed on the 'eqfield' tag"}
+{"level":"INFO","time":"2020-11-18T00:25:11.096-0500","caller":"logger/logger.go:79","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"::1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.000341552}
+{"level":"ERROR","time":"2020-11-18T00:25:20.679-0500","caller":"controller/user.go:18","msg":"SignUp with invalid param","error":"Key: 'ParamSignUp.Password' Error:Field validation for 'Password' failed on the 'required' tag\nKey: 'ParamSignUp.RePassword' Error:Field validation for 'RePassword' failed on the 'eqfield' tag"}
+{"level":"INFO","time":"2020-11-18T00:25:20.679-0500","caller":"logger/logger.go:79","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"::1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.000203528}
+{"level":"INFO","time":"2020-11-18T00:25:52.293-0500","caller":"Gin_Scaffold/main.go:86","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2020-11-18T00:25:52.797-0500","caller":"Gin_Scaffold/main.go:95","msg":"Server exiting"}
+{"level":"INFO","time":"2020-11-18T00:25:56.116-0500","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-11-18T00:25:56.116-0500","caller":"Gin_Scaffold/main.go:38","msg":"logger init success"}
+{"level":"ERROR","time":"2020-11-18T00:26:12.322-0500","caller":"controller/user.go:18","msg":"SignUp with invalid param","error":"Key: 'ParamSignUp.Password' Error:Field validation for 'Password' failed on the 'required' tag\nKey: 'ParamSignUp.RePassword' Error:Field validation for 'RePassword' failed on the 'eqfield' tag"}
+{"level":"INFO","time":"2020-11-18T00:26:12.322-0500","caller":"logger/logger.go:79","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"::1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.000321857}
+{"level":"INFO","time":"2020-11-18T00:51:56.655-0500","caller":"Gin_Scaffold/main.go:87","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2020-11-18T00:51:57.157-0500","caller":"Gin_Scaffold/main.go:96","msg":"Server exiting"}

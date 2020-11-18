@@ -9,9 +9,11 @@ import (
 	"os/signal"
 	"syscall"
 	"time"
+	"web_app/controller"
 	"web_app/dao/mysql"
 	"web_app/dao/redis"
 	"web_app/logger"
+	"web_app/pkg/snowflake"
 	"web_app/routes"
 	"web_app/settings"
 
@@ -48,6 +50,16 @@ func main() {
 		return
 	}
 	defer redis.Close()
+
+	if err := snowflake.Init(settings.Conf.StartTime, settings.Conf.MachineID); err != nil {
+		fmt.Printf("init redis failed, err:%v\n", err)
+		return
+	}
+	// init validator
+	if err := controller.InitTrans("en"); err != nil {
+		fmt.Printf("init validator failed, err:%v\n", err)
+		return
+	}
 
 	// 5. regist router
 	r := routes.Setup()

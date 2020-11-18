@@ -1,7 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba334718-c242-45d7-8c2f-1a3ac3e0c5f1" name="Default Changelist" comment="" />
+    <list default="true" id="ba334718-c242-45d7-8c2f-1a3ac3e0c5f1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controller/user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controller/validator.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/mysql/user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logic/user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/create_table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/params.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/snowflake/snowflake.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_app" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/web_app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/WhiteBell.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/routes.go" beforeDir="false" afterPath="$PROJECT_DIR$/routes/routes.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings/settings.go" beforeDir="false" afterPath="$PROJECT_DIR$/settings/settings.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_app.log" beforeDir="false" afterPath="$PROJECT_DIR$/web_app.log" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,23 +45,38 @@
       </list>
     </option>
   </component>
-  <component name="GOROOT" path="C:\Go" />
+  <component name="GOROOT" path="/usr/local/go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="false" />
   </component>
   <component name="ProjectId" id="1kOVwdtXoEtU5pv1D7VNFWAQSC5" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="ask.go.tool.to.install.GoImportsTaskConsumer" value="true" />
     <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$" />
-    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="go" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -41,29 +87,72 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
   </component>
   <component name="WindowStateProjectService">
-    <state x="652" y="306" width="924" height="425" key="#File_Watchers" timestamp="1605573491273">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="489" y="281" width="924" height="425" key="#File_Watchers" timestamp="1605670270987">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="652" y="306" width="924" height="425" key="#File_Watchers/0.0.1920.1040@0.0.1920.1040" timestamp="1605573491273" />
+    <state x="489" y="281" key="#File_Watchers/0.23.1440.877@0.23.1440.877" timestamp="1605670270987" />
+    <state x="520" y="398" key="#GOROOT" timestamp="1605665780492">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="520" y="398" key="#GOROOT/0.23.1440.877@0.23.1440.877" timestamp="1605665780492" />
     <state x="643" y="298" key="#Notifications" timestamp="1605573849710">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="643" y="298" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1605573849710" />
-    <state x="410" y="164" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605571914425">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="308" y="161" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605666810398">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="410" y="164" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605571914425" />
+    <state x="308" y="161" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.877@0.23.1440.877" timestamp="1605666810398" />
     <state x="551" y="241" key="EditFileWatcherDialog" timestamp="1605572982188">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="551" y="241" key="EditFileWatcherDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605572982188" />
-    <state x="336" y="77" key="SettingsEditor" timestamp="1605573774358">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="958" height="231" key="GridCell.Tab.0.bottom" timestamp="1605667383309">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="958" height="231" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1605667383309" />
+    <state width="958" height="231" key="GridCell.Tab.0.center" timestamp="1605667383308">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="958" height="231" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1605667383308" />
+    <state width="958" height="231" key="GridCell.Tab.0.left" timestamp="1605667383307">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="958" height="231" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1605667383307" />
+    <state width="958" height="231" key="GridCell.Tab.0.right" timestamp="1605667383308">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="958" height="231" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1605667383308" />
+    <state x="252" y="88" key="SettingsEditor" timestamp="1605665581397">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="336" y="77" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1605573774358" />
+    <state x="252" y="88" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1605665581397" />
+    <state x="320" y="201" key="Vcs.Push.Dialog.v2" timestamp="1605663368726">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="320" y="201" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1605663368726" />
+    <state x="473" y="357" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1605663341335">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="473" y="357" key="git4idea.remote.GitConfigureRemotesDialog/0.23.1440.877@0.23.1440.877" timestamp="1605663341335" />
   </component>
 </project>

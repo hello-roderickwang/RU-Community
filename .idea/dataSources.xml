@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="AWS_MySQL_GO" uuid="18f57b8e-ee81-4223-b0a0-cd70e21e0271">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://database-gomysql.chvwwy2ex6ot.us-east-2.rds.amazonaws.com:3306</jdbc-url>
+    </data-source>
+  </component>
+</project>
