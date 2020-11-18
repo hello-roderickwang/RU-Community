@@ -17,7 +17,7 @@ mysql:
   port: 3306
   user: "admin"
   password: "MySQL4GO"
-  dbname: "bluebell"
+  db: "bluebell"
   max_open_conns: 200
   max_idle_conns: 50
 

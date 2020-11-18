@@ -11,26 +11,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ba334718-c242-45d7-8c2f-1a3ac3e0c5f1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller/user.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller/validator.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dao/mysql/user.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logic/user.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/create_table.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/params.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pkg/snowflake/snowflake.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_app" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/web_app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/WhiteBell.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/user.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/user.go" beforeDir="false" afterPath="$PROJECT_DIR$/controller/user.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dao/mysql/user.go" beforeDir="false" afterPath="$PROJECT_DIR$/dao/mysql/user.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logic/user.go" beforeDir="false" afterPath="$PROJECT_DIR$/logic/user.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/routes.go" beforeDir="false" afterPath="$PROJECT_DIR$/routes/routes.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings/settings.go" beforeDir="false" afterPath="$PROJECT_DIR$/settings/settings.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_app" beforeDir="false" afterPath="$PROJECT_DIR$/web_app" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web_app.log" beforeDir="false" afterPath="$PROJECT_DIR$/web_app.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,6 +55,9 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="ask.go.tool.to.install.GoImportsTaskConsumer" value="true" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="false" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$" />
@@ -76,7 +67,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="go" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -99,6 +90,10 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added user login function" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added user login function" />
+  </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
   </component>
@@ -108,6 +103,10 @@
     </state>
     <state x="652" y="306" width="924" height="425" key="#File_Watchers/0.0.1920.1040@0.0.1920.1040" timestamp="1605573491273" />
     <state x="489" y="281" key="#File_Watchers/0.23.1440.877@0.23.1440.877" timestamp="1605670270987" />
+    <state x="520" y="127" key="#GOPATH" timestamp="1605728034272">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="520" y="127" key="#GOPATH/0.23.1440.877@0.23.1440.877" timestamp="1605728034272" />
     <state x="520" y="398" key="#GOROOT" timestamp="1605665780492">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -116,40 +115,48 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="643" y="298" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1605573849710" />
-    <state x="308" y="161" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605666810398">
+    <state x="308" y="161" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605734165875">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="410" y="164" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605571914425" />
-    <state x="308" y="161" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.877@0.23.1440.877" timestamp="1605666810398" />
+    <state x="308" y="161" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.877@0.23.1440.877" timestamp="1605734165875" />
+    <state x="532" y="184" key="#com.intellij.ide.util.MemberChooser" timestamp="1605734400809">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="532" y="184" key="#com.intellij.ide.util.MemberChooser/0.23.1440.877@0.23.1440.877" timestamp="1605734400809" />
     <state x="551" y="241" key="EditFileWatcherDialog" timestamp="1605572982188">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="551" y="241" key="EditFileWatcherDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605572982188" />
-    <state width="958" height="231" key="GridCell.Tab.0.bottom" timestamp="1605667383309">
+    <state x="619" y="330" key="EnvironmentVariablesDialog" timestamp="1605728133536">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="958" height="231" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1605667383309" />
-    <state width="958" height="231" key="GridCell.Tab.0.center" timestamp="1605667383308">
+    <state x="619" y="330" key="EnvironmentVariablesDialog/0.23.1440.877@0.23.1440.877" timestamp="1605728133536" />
+    <state width="958" height="231" key="GridCell.Tab.0.bottom" timestamp="1605735228005">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="958" height="231" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1605667383308" />
-    <state width="958" height="231" key="GridCell.Tab.0.left" timestamp="1605667383307">
+    <state width="958" height="231" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1605735228005" />
+    <state width="958" height="231" key="GridCell.Tab.0.center" timestamp="1605735228004">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="958" height="231" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1605667383307" />
-    <state width="958" height="231" key="GridCell.Tab.0.right" timestamp="1605667383308">
+    <state width="958" height="231" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1605735228004" />
+    <state width="958" height="231" key="GridCell.Tab.0.left" timestamp="1605735228003">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="958" height="231" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1605667383308" />
-    <state x="252" y="88" key="SettingsEditor" timestamp="1605665581397">
+    <state width="958" height="231" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1605735228003" />
+    <state width="958" height="231" key="GridCell.Tab.0.right" timestamp="1605735228004">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="958" height="231" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1605735228004" />
+    <state x="252" y="88" key="SettingsEditor" timestamp="1605728059629">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="336" y="77" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1605573774358" />
-    <state x="252" y="88" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1605665581397" />
-    <state x="320" y="201" key="Vcs.Push.Dialog.v2" timestamp="1605663368726">
+    <state x="252" y="88" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1605728059629" />
+    <state x="320" y="201" key="Vcs.Push.Dialog.v2" timestamp="1605680093665">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="320" y="201" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1605663368726" />
+    <state x="320" y="201" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1605680093665" />
     <state x="473" y="357" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1605663341335">
       <screen x="0" y="23" width="1440" height="877" />
     </state>

@@ -42,7 +42,12 @@ func SignUpHandler(c *gin.Context) {
 
 	fmt.Println(p)
 	// 2. deal parameter
-	logic.SignUp(p)
+	if err := logic.SignUp(p); err != nil {
+		c.JSON(http.StatusOK, gin.H{
+			"msg": err.Error(),
+		})
+		return
+	}
 	// 3. return
 	c.JSON(http.StatusOK, gin.H{
 		"msg": "success",

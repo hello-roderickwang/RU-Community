@@ -12,7 +12,7 @@ func Setup() *gin.Engine {
 	r := gin.New()
 	r.Use(logger.GinLogger(), logger.GinRecovery(true))
 
-	// registe route service
+	// regist route service
 	r.POST("/signup", controller.SignUpHandler)
 
 	r.GET("/", func(c *gin.Context) {

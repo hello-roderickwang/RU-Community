@@ -122,3 +122,41 @@
 {"level":"INFO","time":"2020-11-18T00:26:12.322-0500","caller":"logger/logger.go:79","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"::1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.000321857}
 {"level":"INFO","time":"2020-11-18T00:51:56.655-0500","caller":"Gin_Scaffold/main.go:87","msg":"Shutdown Server ..."}
 {"level":"INFO","time":"2020-11-18T00:51:57.157-0500","caller":"Gin_Scaffold/main.go:96","msg":"Server exiting"}
+{"level":"INFO","time":"2020-11-18T16:19:00.035-0500","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-11-18T16:19:00.036-0500","caller":"Gin_Scaffold/main.go:38","msg":"logger init success"}
+{"level":"ERROR","time":"2020-11-18T16:19:24.076-0500","caller":"controller/user.go:18","msg":"SignUp with invalid param","error":"Key: 'ParamSignUp.Password' Error:Field validation for 'Password' failed on the 'required' tag\nKey: 'ParamSignUp.RePassword' Error:Field validation for 'RePassword' failed on the 'eqfield' tag"}
+{"level":"INFO","time":"2020-11-18T16:19:24.076-0500","caller":"logger/logger.go:79","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"::1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.000902778}
+{"level":"INFO","time":"2020-11-18T16:19:29.596-0500","caller":"logger/logger.go:79","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"::1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.031301359}
+{"level":"INFO","time":"2020-11-18T16:22:11.618-0500","caller":"logger/logger.go:79","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"::1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.028176007}
+{"level":"INFO","time":"2020-11-18T16:22:54.334-0500","caller":"Gin_Scaffold/main.go:87","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2020-11-18T16:22:54.839-0500","caller":"Gin_Scaffold/main.go:96","msg":"Server exiting"}
+{"level":"INFO","time":"2020-11-18T16:23:02.362-0500","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-11-18T16:23:02.362-0500","caller":"Gin_Scaffold/main.go:38","msg":"logger init success"}
+{"level":"INFO","time":"2020-11-18T16:23:07.492-0500","caller":"logger/logger.go:79","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"::1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.029016103}
+{"level":"INFO","time":"2020-11-18T16:25:20.790-0500","caller":"Gin_Scaffold/main.go:87","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2020-11-18T16:25:21.292-0500","caller":"Gin_Scaffold/main.go:96","msg":"Server exiting"}
+{"level":"INFO","time":"2020-11-18T16:25:24.779-0500","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-11-18T16:25:24.780-0500","caller":"Gin_Scaffold/main.go:38","msg":"logger init success"}
+{"level":"INFO","time":"2020-11-18T16:25:29.921-0500","caller":"logger/logger.go:79","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"::1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.022376059}
+{"level":"INFO","time":"2020-11-18T16:26:45.978-0500","caller":"Gin_Scaffold/main.go:87","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2020-11-18T16:26:46.479-0500","caller":"Gin_Scaffold/main.go:96","msg":"Server exiting"}
+{"level":"INFO","time":"2020-11-18T16:26:49.866-0500","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-11-18T16:26:49.866-0500","caller":"Gin_Scaffold/main.go:38","msg":"logger init success"}
+{"level":"INFO","time":"2020-11-18T16:26:53.464-0500","caller":"logger/logger.go:79","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"::1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.030025816}
+{"level":"INFO","time":"2020-11-18T16:33:51.342-0500","caller":"Gin_Scaffold/main.go:87","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2020-11-18T16:33:51.844-0500","caller":"Gin_Scaffold/main.go:96","msg":"Server exiting"}
+{"level":"INFO","time":"2020-11-18T16:33:55.078-0500","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-11-18T16:33:55.078-0500","caller":"Gin_Scaffold/main.go:38","msg":"logger init success"}
+{"level":"INFO","time":"2020-11-18T16:33:59.478-0500","caller":"logger/logger.go:79","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"::1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.123282454}
+{"level":"INFO","time":"2020-11-18T16:34:24.119-0500","caller":"Gin_Scaffold/main.go:87","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2020-11-18T16:34:24.622-0500","caller":"Gin_Scaffold/main.go:96","msg":"Server exiting"}
+{"level":"INFO","time":"2020-11-18T16:34:26.964-0500","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-11-18T16:34:26.964-0500","caller":"Gin_Scaffold/main.go:38","msg":"logger init success"}
+{"level":"INFO","time":"2020-11-18T16:34:32.605-0500","caller":"logger/logger.go:79","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"::1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.055331692}
+{"level":"INFO","time":"2020-11-18T16:38:08.963-0500","caller":"Gin_Scaffold/main.go:87","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2020-11-18T16:38:09.466-0500","caller":"Gin_Scaffold/main.go:96","msg":"Server exiting"}
+{"level":"INFO","time":"2020-11-18T16:38:13.663-0500","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-11-18T16:38:13.663-0500","caller":"Gin_Scaffold/main.go:38","msg":"logger init success"}
+{"level":"INFO","time":"2020-11-18T16:38:18.102-0500","caller":"logger/logger.go:79","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"::1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.054760765}
+{"level":"INFO","time":"2020-11-18T16:38:49.417-0500","caller":"Gin_Scaffold/main.go:87","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2020-11-18T16:38:49.923-0500","caller":"Gin_Scaffold/main.go:96","msg":"Server exiting"}
