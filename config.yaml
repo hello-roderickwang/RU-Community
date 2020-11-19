@@ -1,5 +1,5 @@
 name: "web_app"
-mode: "dev"
+mode: "debug"
 port: 8081
 version: "v0.0.1"
 start_time: "2020-11-01"

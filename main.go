@@ -62,7 +62,7 @@ func main() {
 	}
 
 	// 5. regist router
-	r := routes.Setup()
+	r := routes.Setup(settings.Conf.Mode)
 	// 6. init server(elegent start)
 	srv := &http.Server{
 		Addr:    fmt.Sprintf(":%d", settings.Conf.Port),
