@@ -1,11 +1,11 @@
 package routes
 
 import (
+	"github.com/gin-gonic/gin"
 	"net/http"
 	"web_app/controller"
 	"web_app/logger"
-
-	"github.com/gin-gonic/gin"
+	"web_app/middlewares"
 )
 
 func Setup(mode string) *gin.Engine {
@@ -22,6 +22,11 @@ func Setup(mode string) *gin.Engine {
 	r.GET("/", func(c *gin.Context) {
 		c.String(http.StatusOK, "OK")
 	})
+
+	r.GET("/ping", middlewares.JWTAuthMiddleware(), func(c *gin.Context) {
+		c.String(http.StatusOK, "pong")
+	})
+
 	r.NoRoute(func(c *gin.Context) {
 		c.JSON(http.StatusOK, gin.H{
 			"msg": "404",
