@@ -191,3 +191,7 @@
 {"level":"INFO","time":"2020-11-18T22:11:25.186-0500","caller":"logger/logger.go:79","msg":"/ping","status":200,"method":"GET","path":"/ping","query":"","ip":"::1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.000310158}
 {"level":"INFO","time":"2020-11-18T22:50:09.536-0500","caller":"Gin_Scaffold/main.go:87","msg":"Shutdown Server ..."}
 {"level":"INFO","time":"2020-11-18T22:50:10.042-0500","caller":"Gin_Scaffold/main.go:96","msg":"Server exiting"}
+{"level":"INFO","time":"2020-11-18T22:56:12.706-0500","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-11-18T22:56:12.707-0500","caller":"Gin_Scaffold/main.go:38","msg":"logger init success"}
+{"level":"INFO","time":"2020-11-18T22:56:15.566-0500","caller":"Gin_Scaffold/main.go:87","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2020-11-18T22:56:16.071-0500","caller":"Gin_Scaffold/main.go:96","msg":"Server exiting"}

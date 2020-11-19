@@ -3,13 +3,14 @@ package controller
 import (
 	"errors"
 	"github.com/gin-gonic/gin"
-	"web_app/middlewares"
 )
+
+const CtxUserIDKey = "userID"
 
 var ErrorUserNotLogin = errors.New("USER NOT LOGIN")
 
 func getCurrentUser(c *gin.Context) (userID int64, err error) {
-	uid, ok := c.Get(middlewares.CtxUserIDKey)
+	uid, ok := c.Get(CtxUserIDKey)
 	//if !ok {
 	//	err = ErrorUserNotLogin
 	//	// what is the userID for this return
