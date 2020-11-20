@@ -27,5 +27,7 @@ func GetCommunityDetailByID(id int64) (community *models.CommunityDetail, err er
 			err = ErrorInvaldID
 		}
 	}
+	//fmt.Println("\ncommunity_name:", community.Name)
+	//fmt.Println("\nintroduction:", community.Introduction)
 	return
 }

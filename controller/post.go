@@ -3,6 +3,7 @@ package controller
 import (
 	"github.com/gin-gonic/gin"
 	"go.uber.org/zap"
+	"strconv"
 	"web_app/logic"
 	"web_app/models"
 )
@@ -26,4 +27,22 @@ func CreatePostHandler(c *gin.Context) {
 		return
 	}
 	ResponseSuccess(c, nil)
+}
+
+func GetPostDetailHandler(c *gin.Context) {
+	// same as route /:id
+	pidStr := c.Param("id")
+	pid, err := strconv.ParseInt(pidStr, 10, 64)
+	if err != nil {
+		zap.L().Error("get post detail with invalid param", zap.Error(err))
+		ResponseError(c, CodeInvalidParam)
+		return
+	}
+	data, err := logic.GetPostByID(pid)
+	if err != nil {
+		zap.L().Error("logic.GetPostByID(pid) failed", zap.Error(err))
+		ResponseError(c, CodeServerBusy)
+		return
+	}
+	ResponseSuccess(c, data)
 }

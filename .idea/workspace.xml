@@ -11,11 +11,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ba334718-c242-45d7-8c2f-1a3ac3e0c5f1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/controller/post.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dao/mysql/post.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logic/post.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/post.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/post.go" beforeDir="false" afterPath="$PROJECT_DIR$/controller/post.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dao/mysql/community.go" beforeDir="false" afterPath="$PROJECT_DIR$/dao/mysql/community.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dao/mysql/post.go" beforeDir="false" afterPath="$PROJECT_DIR$/dao/mysql/post.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dao/mysql/user.go" beforeDir="false" afterPath="$PROJECT_DIR$/dao/mysql/user.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logic/post.go" beforeDir="false" afterPath="$PROJECT_DIR$/logic/post.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/post.go" beforeDir="false" afterPath="$PROJECT_DIR$/models/post.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/routes.go" beforeDir="false" afterPath="$PROJECT_DIR$/routes/routes.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web_app.log" beforeDir="false" afterPath="$PROJECT_DIR$/web_app.log" afterDir="false" />
     </list>
@@ -95,7 +97,8 @@
     <MESSAGE value="Updated middlewares package." />
     <MESSAGE value="resolve cycle import problem between middlewares and controllers" />
     <MESSAGE value="Update query community and community details" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update query community and community details" />
+    <MESSAGE value="Update create post" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update create post" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -118,11 +121,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="643" y="298" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1605573849710" />
-    <state x="308" y="161" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605734165875">
+    <state x="308" y="161" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605842273528">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="410" y="164" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605571914425" />
-    <state x="308" y="161" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.877@0.23.1440.877" timestamp="1605734165875" />
+    <state x="308" y="161" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.877@0.23.1440.877" timestamp="1605842273528" />
     <state x="532" y="184" key="#com.intellij.ide.util.MemberChooser" timestamp="1605734400809">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -135,22 +138,22 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="619" y="330" key="EnvironmentVariablesDialog/0.23.1440.877@0.23.1440.877" timestamp="1605728133536" />
-    <state width="958" height="231" key="GridCell.Tab.0.bottom" timestamp="1605736009955">
+    <state width="958" height="231" key="GridCell.Tab.0.bottom" timestamp="1605843138180">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="958" height="231" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1605736009955" />
-    <state width="958" height="231" key="GridCell.Tab.0.center" timestamp="1605736009955">
+    <state width="958" height="231" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1605843138180" />
+    <state width="958" height="231" key="GridCell.Tab.0.center" timestamp="1605843138179">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="958" height="231" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1605736009955" />
-    <state width="958" height="231" key="GridCell.Tab.0.left" timestamp="1605736009954">
+    <state width="958" height="231" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1605843138179" />
+    <state width="958" height="231" key="GridCell.Tab.0.left" timestamp="1605843138178">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="958" height="231" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1605736009954" />
-    <state width="958" height="231" key="GridCell.Tab.0.right" timestamp="1605736009955">
+    <state width="958" height="231" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1605843138178" />
+    <state width="958" height="231" key="GridCell.Tab.0.right" timestamp="1605843138179">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="958" height="231" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1605736009955" />
+    <state width="958" height="231" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1605843138179" />
     <state x="252" y="88" key="SettingsEditor" timestamp="1605728059629">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -165,5 +168,16 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="473" y="357" key="git4idea.remote.GitConfigureRemotesDialog/0.23.1440.877@0.23.1440.877" timestamp="1605663341335" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/models/post.go</url>
+          <line>2</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
