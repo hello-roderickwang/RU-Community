@@ -4,17 +4,10 @@ import (
 	"crypto/md5"
 	"database/sql"
 	"encoding/hex"
-	"errors"
 	"web_app/models"
 )
 
 const secrete = "roderickwang"
-
-var (
-	ErrorUserExist       = errors.New("User Exist")
-	ErrorUserNotExist    = errors.New("User Not Exist")
-	ErrorInvalidPassword = errors.New("Wrong Password")
-)
 
 func CheckUserExist(username string) error {
 	sqlStr := `select count(user_id) from user where username = ?`

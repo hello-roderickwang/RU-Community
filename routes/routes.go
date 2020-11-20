@@ -15,17 +15,26 @@ func Setup(mode string) *gin.Engine {
 	r := gin.New()
 	r.Use(logger.GinLogger(), logger.GinRecovery(true))
 
-	// register route service
-	r.POST("/signup", controller.SignUpHandler)
-	r.POST("/login", controller.LoginHandler)
+	v1 := r.Group("api/v1")
 
-	r.GET("/", func(c *gin.Context) {
+	// register route service
+	v1.POST("/signup", controller.SignUpHandler)
+	v1.POST("/login", controller.LoginHandler)
+
+	v1.GET("/", func(c *gin.Context) {
 		c.String(http.StatusOK, "OK")
 	})
 
-	r.GET("/ping", middlewares.JWTAuthMiddleware(), func(c *gin.Context) {
-		c.String(http.StatusOK, "pong")
-	})
+	v1.Use(middlewares.JWTAuthMiddleware())
+
+	//v1.GET("/ping", middlewares.JWTAuthMiddleware(), func(c *gin.Context) {
+	//	c.String(http.StatusOK, "pong")
+	//})
+
+	{
+		v1.GET("/community", controller.CommunityHandler)
+		v1.GET("/community/:id", controller.CommunityDetailHandler)
+	}
 
 	r.NoRoute(func(c *gin.Context) {
 		c.JSON(http.StatusOK, gin.H{
