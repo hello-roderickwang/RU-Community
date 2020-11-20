@@ -314,3 +314,24 @@
 {"level":"INFO","time":"2020-11-19T20:28:21.033-0500","caller":"logger/logger.go:79","msg":"/api/v1/community/1/2","status":200,"method":"GET","path":"/api/v1/community/1/2","query":"","ip":"::1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.000025409}
 {"level":"INFO","time":"2020-11-19T20:28:27.705-0500","caller":"logger/logger.go:79","msg":"/api/v1/community","status":200,"method":"GET","path":"/api/v1/community","query":"","ip":"::1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.034026361}
 {"level":"INFO","time":"2020-11-19T20:29:37.088-0500","caller":"logger/logger.go:79","msg":"/api/v1/community///","status":200,"method":"GET","path":"/api/v1/community///","query":"","ip":"::1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.000015824}
+{"level":"INFO","time":"2020-11-19T20:38:00.946-0500","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-11-19T20:38:00.946-0500","caller":"Gin_Scaffold/main.go:38","msg":"logger init success"}
+{"level":"INFO","time":"2020-11-19T20:38:45.618-0500","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-11-19T20:38:45.618-0500","caller":"Gin_Scaffold/main.go:38","msg":"logger init success"}
+{"level":"INFO","time":"2020-11-19T21:12:58.348-0500","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-11-19T21:12:58.349-0500","caller":"Gin_Scaffold/main.go:38","msg":"logger init success"}
+{"level":"INFO","time":"2020-11-19T21:13:46.480-0500","caller":"logger/logger.go:79","msg":"/api/v1/post","status":200,"method":"GET","path":"/api/v1/post","query":"","ip":"::1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.00011643}
+{"level":"INFO","time":"2020-11-19T21:15:15.712-0500","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-11-19T21:15:15.712-0500","caller":"Gin_Scaffold/main.go:38","msg":"logger init success"}
+{"level":"DEBUG","time":"2020-11-19T21:15:29.909-0500","caller":"controller/post.go:13","msg":"c.ShouldBindJSON(p) error","err":"Key: 'Post.AuthorID' Error:Field validation for 'AuthorID' failed on the 'required' tag\nKey: 'Post.CommunityID' Error:Field validation for 'CommunityID' failed on the 'required' tag"}
+{"level":"ERROR","time":"2020-11-19T21:15:29.909-0500","caller":"controller/post.go:14","msg":"Create post with invalid param"}
+{"level":"INFO","time":"2020-11-19T21:15:29.909-0500","caller":"logger/logger.go:79","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"::1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.000557349}
+{"level":"DEBUG","time":"2020-11-19T21:16:57.601-0500","caller":"controller/post.go:13","msg":"c.ShouldBindJSON(p) error","err":"json: cannot unmarshal string into Go struct field Post.author_id of type int64"}
+{"level":"ERROR","time":"2020-11-19T21:16:57.601-0500","caller":"controller/post.go:14","msg":"Create post with invalid param"}
+{"level":"INFO","time":"2020-11-19T21:16:57.601-0500","caller":"logger/logger.go:79","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"::1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.000356689}
+{"level":"INFO","time":"2020-11-19T21:17:27.070-0500","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-11-19T21:17:27.071-0500","caller":"Gin_Scaffold/main.go:38","msg":"logger init success"}
+{"level":"DEBUG","time":"2020-11-19T21:17:27.805-0500","caller":"controller/post.go:13","msg":"c.ShouldBindJSON(p) error","err":"json: cannot unmarshal string into Go struct field Post.community_id of type int64"}
+{"level":"ERROR","time":"2020-11-19T21:17:27.805-0500","caller":"controller/post.go:14","msg":"Create post with invalid param"}
+{"level":"INFO","time":"2020-11-19T21:17:27.805-0500","caller":"logger/logger.go:79","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"::1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.000544923}
+{"level":"INFO","time":"2020-11-19T21:17:36.565-0500","caller":"logger/logger.go:79","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"::1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.067724747}
