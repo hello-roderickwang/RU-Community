@@ -2,9 +2,9 @@ package redis
 
 import (
 	"fmt"
-	"web_app/settings"
-
 	"github.com/go-redis/redis"
+	"web_app/settings"
+	//"github.com/go-redis/redis/v8"
 )
 
 // 声明一个全局的rdb变量

@@ -424,3 +424,174 @@
 {"level":"INFO","time":"2020-11-20T01:23:34.627-0500","caller":"logger/logger.go:79","msg":"/api/v1/vote","status":200,"method":"POST","path":"/api/v1/vote","query":"","ip":"::1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.000115276}
 {"level":"INFO","time":"2020-11-20T01:23:40.177-0500","caller":"logger/logger.go:79","msg":"/api/v1/vote","status":200,"method":"POST","path":"/api/v1/vote","query":"","ip":"::1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.000190419}
 {"level":"INFO","time":"2020-11-20T01:23:46.466-0500","caller":"logger/logger.go:79","msg":"/api/v1/vote","status":200,"method":"POST","path":"/api/v1/vote","query":"","ip":"::1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.000101194}
+{"level":"INFO","time":"2020-11-20T21:17:05.703-0500","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-11-20T21:17:05.704-0500","caller":"Gin_Scaffold/main.go:38","msg":"logger init success"}
+{"level":"DEBUG","time":"2020-11-20T21:18:40.961-0500","caller":"controller/post.go:14","msg":"c.ShouldBindJSON(p) error","err":"json: cannot unmarshal string into Go struct field Post.community_id of type int64"}
+{"level":"ERROR","time":"2020-11-20T21:18:40.961-0500","caller":"controller/post.go:15","msg":"Create post with invalid param"}
+{"level":"INFO","time":"2020-11-20T21:18:40.961-0500","caller":"logger/logger.go:79","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"::1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.001058731}
+{"level":"DEBUG","time":"2020-11-20T21:20:31.857-0500","caller":"controller/post.go:14","msg":"c.ShouldBindJSON(p) error","err":"json: cannot unmarshal string into Go struct field Post.community_id of type int64"}
+{"level":"ERROR","time":"2020-11-20T21:20:31.858-0500","caller":"controller/post.go:15","msg":"Create post with invalid param"}
+{"level":"INFO","time":"2020-11-20T21:20:31.858-0500","caller":"logger/logger.go:79","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"::1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.000767614}
+{"level":"INFO","time":"2020-11-20T21:22:58.787-0500","caller":"logger/logger.go:79","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"::1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.080894243}
+{"level":"INFO","time":"2020-11-20T21:28:28.520-0500","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-11-20T21:28:28.520-0500","caller":"Gin_Scaffold/main.go:38","msg":"logger init success"}
+{"level":"INFO","time":"2020-11-20T21:28:45.657-0500","caller":"logger/logger.go:79","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"::1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.092849628}
+{"level":"INFO","time":"2020-11-20T21:29:16.896-0500","caller":"logger/logger.go:79","msg":"/api/v1/post/","status":200,"method":"GET","path":"/api/v1/post/","query":"size=2","ip":"::1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.294398988}
+{"level":"INFO","time":"2020-11-20T21:29:23.692-0500","caller":"logger/logger.go:79","msg":"/api/v1/post/","status":200,"method":"GET","path":"/api/v1/post/","query":"size=5","ip":"::1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.563993063}
+{"level":"INFO","time":"2020-11-20T21:31:55.193-0500","caller":"logger/logger.go:79","msg":"/api/v1/vote","status":200,"method":"POST","path":"/api/v1/vote","query":"","ip":"::1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.000102829}
+{"level":"INFO","time":"2020-11-20T21:36:05.296-0500","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-11-20T21:36:05.296-0500","caller":"Gin_Scaffold/main.go:38","msg":"logger init success"}
+{"level":"INFO","time":"2020-11-20T21:36:10.606-0500","caller":"logger/logger.go:79","msg":"/api/v1/vote","status":200,"method":"POST","path":"/api/v1/vote","query":"","ip":"::1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.000327577}
+{"level":"INFO","time":"2020-11-20T21:36:19.339-0500","caller":"logger/logger.go:79","msg":"/api/v1/vote","status":200,"method":"POST","path":"/api/v1/vote","query":"","ip":"::1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.000094908}
+{"level":"DEBUG","time":"2020-11-20T21:36:34.574-0500","caller":"logic/vote.go:11","msg":"VoteForPost","userID":6486237024096256,"postID":6938967517696000,"direction":1}
+{"level":"ERROR","time":"2020-11-20T21:36:34.607-0500","caller":"controller/vote.go:30","msg":"logic.VoteForPost() failed","error":"INVALID VOTE TIME"}
+{"level":"INFO","time":"2020-11-20T21:36:34.607-0500","caller":"logger/logger.go:79","msg":"/api/v1/vote","status":200,"method":"POST","path":"/api/v1/vote","query":"","ip":"::1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.033869076}
+{"level":"INFO","time":"2020-11-20T21:37:53.937-0500","caller":"logger/logger.go:79","msg":"/api/v1/post/","status":200,"method":"GET","path":"/api/v1/post/","query":"size=5","ip":"::1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.59070002}
+{"level":"DEBUG","time":"2020-11-20T21:38:06.699-0500","caller":"logic/vote.go:11","msg":"VoteForPost","userID":6486237024096256,"postID":7285193844985856,"direction":1}
+{"level":"ERROR","time":"2020-11-20T21:38:06.731-0500","caller":"controller/vote.go:30","msg":"logic.VoteForPost() failed","error":"INVALID VOTE TIME"}
+{"level":"INFO","time":"2020-11-20T21:38:06.731-0500","caller":"logger/logger.go:79","msg":"/api/v1/vote","status":200,"method":"POST","path":"/api/v1/vote","query":"","ip":"::1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.03259075}
+{"level":"INFO","time":"2020-11-20T21:40:33.752-0500","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-11-20T21:40:33.753-0500","caller":"Gin_Scaffold/main.go:38","msg":"logger init success"}
+{"level":"DEBUG","time":"2020-11-20T21:40:38.766-0500","caller":"logic/vote.go:11","msg":"VoteForPost","userID":6486237024096256,"postID":7285193844985856,"direction":1}
+{"level":"DEBUG","time":"2020-11-20T21:40:38.795-0500","caller":"redis/vote.go:30","msg":"postTime in redis/vote.VoteForPost","postTime":0}
+{"level":"ERROR","time":"2020-11-20T21:40:38.795-0500","caller":"controller/vote.go:30","msg":"logic.VoteForPost() failed","error":"INVALID VOTE TIME"}
+{"level":"INFO","time":"2020-11-20T21:40:38.795-0500","caller":"logger/logger.go:79","msg":"/api/v1/vote","status":200,"method":"POST","path":"/api/v1/vote","query":"","ip":"::1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.029243429}
+{"level":"INFO","time":"2020-11-20T21:42:04.346-0500","caller":"logger/logger.go:79","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"::1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.090872552}
+{"level":"INFO","time":"2020-11-20T21:42:13.906-0500","caller":"logger/logger.go:79","msg":"/api/v1/post/","status":200,"method":"GET","path":"/api/v1/post/","query":"size=5","ip":"::1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.654604979}
+{"level":"DEBUG","time":"2020-11-20T21:42:30.481-0500","caller":"logic/vote.go:11","msg":"VoteForPost","userID":6486237024096256,"postID":7288543793647616,"direction":1}
+{"level":"DEBUG","time":"2020-11-20T21:42:30.516-0500","caller":"redis/vote.go:30","msg":"postTime in redis/vote.VoteForPost","postTime":0}
+{"level":"ERROR","time":"2020-11-20T21:42:30.516-0500","caller":"controller/vote.go:30","msg":"logic.VoteForPost() failed","error":"INVALID VOTE TIME"}
+{"level":"INFO","time":"2020-11-20T21:42:30.516-0500","caller":"logger/logger.go:79","msg":"/api/v1/vote","status":200,"method":"POST","path":"/api/v1/vote","query":"","ip":"::1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.035350775}
+{"level":"INFO","time":"2020-11-20T21:44:30.345-0500","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-11-20T21:44:30.345-0500","caller":"Gin_Scaffold/main.go:38","msg":"logger init success"}
+{"level":"DEBUG","time":"2020-11-20T21:44:36.143-0500","caller":"logic/vote.go:11","msg":"VoteForPost","userID":6486237024096256,"postID":7288543793647616,"direction":1}
+{"level":"DEBUG","time":"2020-11-20T21:44:36.143-0500","caller":"redis/vote.go:29","msg":"postStr in redis/vote.VoteForPost","postStr":"7288543793647616"}
+{"level":"DEBUG","time":"2020-11-20T21:44:36.175-0500","caller":"redis/vote.go:31","msg":"postTime in redis/vote.VoteForPost","postTime":0}
+{"level":"ERROR","time":"2020-11-20T21:44:36.175-0500","caller":"controller/vote.go:30","msg":"logic.VoteForPost() failed","error":"INVALID VOTE TIME"}
+{"level":"INFO","time":"2020-11-20T21:44:36.175-0500","caller":"logger/logger.go:79","msg":"/api/v1/vote","status":200,"method":"POST","path":"/api/v1/vote","query":"","ip":"::1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.032650052}
+{"level":"INFO","time":"2020-11-20T21:45:07.590-0500","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-11-20T21:45:07.590-0500","caller":"Gin_Scaffold/main.go:38","msg":"logger init success"}
+{"level":"DEBUG","time":"2020-11-20T21:45:13.880-0500","caller":"logic/vote.go:11","msg":"VoteForPost","userID":6486237024096256,"postID":7288543793647616,"direction":1}
+{"level":"DEBUG","time":"2020-11-20T21:45:13.880-0500","caller":"redis/vote.go:29","msg":"postStr in redis/vote.VoteForPost","postStr":"7288543793647616"}
+{"level":"DEBUG","time":"2020-11-20T21:45:13.915-0500","caller":"redis/vote.go:31","msg":"postTime in redis/vote.VoteForPost","postTime":0}
+{"level":"INFO","time":"2020-11-20T21:45:13.974-0500","caller":"logger/logger.go:79","msg":"/api/v1/vote","status":200,"method":"POST","path":"/api/v1/vote","query":"","ip":"::1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.094557228}
+{"level":"INFO","time":"2020-11-20T21:47:10.106-0500","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-11-20T21:47:10.106-0500","caller":"Gin_Scaffold/main.go:38","msg":"logger init success"}
+{"level":"DEBUG","time":"2020-11-20T21:47:13.992-0500","caller":"logic/vote.go:11","msg":"VoteForPost","userID":6486237024096256,"postID":7288543793647616,"direction":1}
+{"level":"DEBUG","time":"2020-11-20T21:47:13.992-0500","caller":"redis/vote.go:29","msg":"postStr in redis/vote.VoteForPost","postStr":"7288543793647616"}
+{"level":"DEBUG","time":"2020-11-20T21:47:14.026-0500","caller":"redis/vote.go:31","msg":"postTime in redis/vote.VoteForPost","postTime":0}
+{"level":"DEBUG","time":"2020-11-20T21:47:14.026-0500","caller":"redis/vote.go:32","msg":"time.Now().Unix() in redis/vote.VoteForPost","time.Now().Unix()":1605926834}
+{"level":"INFO","time":"2020-11-20T21:47:14.085-0500","caller":"logger/logger.go:79","msg":"/api/v1/vote","status":200,"method":"POST","path":"/api/v1/vote","query":"","ip":"::1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.093448256}
+{"level":"INFO","time":"2020-11-20T21:51:47.417-0500","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-11-20T21:51:47.418-0500","caller":"Gin_Scaffold/main.go:38","msg":"logger init success"}
+{"level":"DEBUG","time":"2020-11-20T21:51:52.578-0500","caller":"logic/vote.go:11","msg":"VoteForPost","userID":6486237024096256,"postID":7288543793647616,"direction":1}
+{"level":"DEBUG","time":"2020-11-20T21:51:52.578-0500","caller":"redis/vote.go:29","msg":"postStr in redis/vote.VoteForPost","postStr":"7288543793647616"}
+{"level":"DEBUG","time":"2020-11-20T21:51:52.609-0500","caller":"redis/vote.go:31","msg":"postTime in redis/vote.VoteForPost","postTime":0}
+{"level":"DEBUG","time":"2020-11-20T21:51:52.609-0500","caller":"redis/vote.go:32","msg":"time.Now().Unix() in redis/vote.VoteForPost","time.Now().Unix()":1605927112}
+{"level":"INFO","time":"2020-11-20T21:51:52.667-0500","caller":"logger/logger.go:79","msg":"/api/v1/vote","status":200,"method":"POST","path":"/api/v1/vote","query":"","ip":"::1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.089641021}
+{"level":"INFO","time":"2020-11-20T21:52:36.127-0500","caller":"logger/logger.go:79","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"::1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.103989225}
+{"level":"INFO","time":"2020-11-20T21:52:45.590-0500","caller":"logger/logger.go:79","msg":"/api/v1/post/","status":200,"method":"GET","path":"/api/v1/post/","query":"size=9","ip":"::1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.781756177}
+{"level":"DEBUG","time":"2020-11-20T21:53:03.089-0500","caller":"logic/vote.go:11","msg":"VoteForPost","userID":6486237024096256,"postID":7291193394204672,"direction":1}
+{"level":"DEBUG","time":"2020-11-20T21:53:03.089-0500","caller":"redis/vote.go:29","msg":"postStr in redis/vote.VoteForPost","postStr":"7291193394204672"}
+{"level":"DEBUG","time":"2020-11-20T21:53:03.118-0500","caller":"redis/vote.go:31","msg":"postTime in redis/vote.VoteForPost","postTime":0}
+{"level":"DEBUG","time":"2020-11-20T21:53:03.118-0500","caller":"redis/vote.go:32","msg":"time.Now().Unix() in redis/vote.VoteForPost","time.Now().Unix()":1605927183}
+{"level":"INFO","time":"2020-11-20T21:53:03.174-0500","caller":"logger/logger.go:79","msg":"/api/v1/vote","status":200,"method":"POST","path":"/api/v1/vote","query":"","ip":"::1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.08514822}
+{"level":"INFO","time":"2020-11-20T21:57:42.715-0500","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-11-20T21:57:42.715-0500","caller":"Gin_Scaffold/main.go:38","msg":"logger init success"}
+{"level":"ERROR","time":"2020-11-20T21:58:17.467-0500","caller":"controller/post.go:25","msg":"logic.CreatePost(p) failed","error":"WRONGTYPE Operation against a key holding the wrong kind of value"}
+{"level":"INFO","time":"2020-11-20T21:58:17.467-0500","caller":"logger/logger.go:79","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"::1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.095790095}
+{"level":"ERROR","time":"2020-11-20T22:01:38.952-0500","caller":"controller/post.go:25","msg":"logic.CreatePost(p) failed","error":"WRONGTYPE Operation against a key holding the wrong kind of value"}
+{"level":"INFO","time":"2020-11-20T22:01:38.952-0500","caller":"logger/logger.go:79","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"::1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.097924738}
+{"level":"INFO","time":"2020-11-20T22:12:04.807-0500","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-11-20T22:12:04.807-0500","caller":"Gin_Scaffold/main.go:38","msg":"logger init success"}
+{"level":"ERROR","time":"2020-11-20T22:12:10.020-0500","caller":"controller/post.go:25","msg":"logic.CreatePost(p) failed","error":"WRONGTYPE Operation against a key holding the wrong kind of value"}
+{"level":"INFO","time":"2020-11-20T22:12:10.020-0500","caller":"logger/logger.go:79","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"::1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.090418872}
+{"level":"ERROR","time":"2020-11-20T22:12:24.474-0500","caller":"controller/post.go:25","msg":"logic.CreatePost(p) failed","error":"WRONGTYPE Operation against a key holding the wrong kind of value"}
+{"level":"INFO","time":"2020-11-20T22:12:24.474-0500","caller":"logger/logger.go:79","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"::1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.092463839}
+{"level":"INFO","time":"2020-11-20T22:13:59.158-0500","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-11-20T22:13:59.159-0500","caller":"Gin_Scaffold/main.go:38","msg":"logger init success"}
+{"level":"ERROR","time":"2020-11-20T22:15:53.109-0500","caller":"controller/post.go:25","msg":"logic.CreatePost(p) failed","error":"WRONGTYPE Operation against a key holding the wrong kind of value"}
+{"level":"INFO","time":"2020-11-20T22:15:53.110-0500","caller":"logger/logger.go:79","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"::1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.094168707}
+{"level":"INFO","time":"2020-11-20T22:16:57.711-0500","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-11-20T22:16:57.711-0500","caller":"Gin_Scaffold/main.go:38","msg":"logger init success"}
+{"level":"DEBUG","time":"2020-11-20T22:17:02.075-0500","caller":"redis/vote.go:23","msg":"CreatePost in redis/vote"}
+{"level":"ERROR","time":"2020-11-20T22:17:02.102-0500","caller":"controller/post.go:25","msg":"logic.CreatePost(p) failed","error":"WRONGTYPE Operation against a key holding the wrong kind of value"}
+{"level":"INFO","time":"2020-11-20T22:17:02.102-0500","caller":"logger/logger.go:79","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"::1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.097762276}
+{"level":"INFO","time":"2020-11-20T22:17:46.723-0500","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-11-20T22:17:46.723-0500","caller":"Gin_Scaffold/main.go:38","msg":"logger init success"}
+{"level":"DEBUG","time":"2020-11-20T22:17:51.215-0500","caller":"redis/vote.go:23","msg":"CreatePost in redis/vote"}
+{"level":"DEBUG","time":"2020-11-20T22:17:51.242-0500","caller":"redis/vote.go:28","msg":"error","error":"WRONGTYPE Operation against a key holding the wrong kind of value"}
+{"level":"ERROR","time":"2020-11-20T22:17:51.242-0500","caller":"controller/post.go:25","msg":"logic.CreatePost(p) failed","error":"WRONGTYPE Operation against a key holding the wrong kind of value"}
+{"level":"INFO","time":"2020-11-20T22:17:51.243-0500","caller":"logger/logger.go:79","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"::1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.093252135}
+{"level":"INFO","time":"2020-11-20T22:18:51.252-0500","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-11-20T22:18:51.252-0500","caller":"Gin_Scaffold/main.go:38","msg":"logger init success"}
+{"level":"DEBUG","time":"2020-11-20T22:18:56.739-0500","caller":"redis/vote.go:23","msg":"CreatePost in redis/vote"}
+{"level":"DEBUG","time":"2020-11-20T22:18:56.765-0500","caller":"redis/vote.go:28","msg":"error","error":"WRONGTYPE Operation against a key holding the wrong kind of value"}
+{"level":"ERROR","time":"2020-11-20T22:18:56.765-0500","caller":"controller/post.go:25","msg":"logic.CreatePost(p) failed","error":"WRONGTYPE Operation against a key holding the wrong kind of value"}
+{"level":"INFO","time":"2020-11-20T22:18:56.765-0500","caller":"logger/logger.go:79","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"::1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.095354494}
+{"level":"INFO","time":"2020-11-20T22:19:23.597-0500","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-11-20T22:19:23.598-0500","caller":"Gin_Scaffold/main.go:38","msg":"logger init success"}
+{"level":"DEBUG","time":"2020-11-20T22:19:26.030-0500","caller":"redis/vote.go:23","msg":"CreatePost in redis/vote"}
+{"level":"DEBUG","time":"2020-11-20T22:19:26.058-0500","caller":"redis/vote.go:29","msg":"error","error":"WRONGTYPE Operation against a key holding the wrong kind of value"}
+{"level":"ERROR","time":"2020-11-20T22:19:26.058-0500","caller":"controller/post.go:25","msg":"logic.CreatePost(p) failed","error":"WRONGTYPE Operation against a key holding the wrong kind of value"}
+{"level":"INFO","time":"2020-11-20T22:19:26.058-0500","caller":"logger/logger.go:79","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"::1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.088458587}
+{"level":"INFO","time":"2020-11-20T22:19:38.717-0500","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-11-20T22:19:38.717-0500","caller":"Gin_Scaffold/main.go:38","msg":"logger init success"}
+{"level":"DEBUG","time":"2020-11-20T22:19:41.193-0500","caller":"redis/vote.go:23","msg":"CreatePost in redis/vote"}
+{"level":"DEBUG","time":"2020-11-20T22:19:41.222-0500","caller":"redis/vote.go:29","msg":"error","error":"WRONGTYPE Operation against a key holding the wrong kind of value"}
+{"level":"ERROR","time":"2020-11-20T22:19:41.222-0500","caller":"controller/post.go:25","msg":"logic.CreatePost(p) failed","error":"WRONGTYPE Operation against a key holding the wrong kind of value"}
+{"level":"INFO","time":"2020-11-20T22:19:41.222-0500","caller":"logger/logger.go:79","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"::1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.094968582}
+{"level":"INFO","time":"2020-11-20T22:19:50.743-0500","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-11-20T22:19:50.743-0500","caller":"Gin_Scaffold/main.go:38","msg":"logger init success"}
+{"level":"DEBUG","time":"2020-11-20T22:19:53.346-0500","caller":"redis/vote.go:23","msg":"CreatePost in redis/vote"}
+{"level":"DEBUG","time":"2020-11-20T22:19:53.369-0500","caller":"redis/vote.go:29","msg":"error","error":"WRONGTYPE Operation against a key holding the wrong kind of value"}
+{"level":"ERROR","time":"2020-11-20T22:19:53.369-0500","caller":"controller/post.go:25","msg":"logic.CreatePost(p) failed","error":"WRONGTYPE Operation against a key holding the wrong kind of value"}
+{"level":"INFO","time":"2020-11-20T22:19:53.369-0500","caller":"logger/logger.go:79","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"::1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.090687019}
+{"level":"INFO","time":"2020-11-20T22:20:17.812-0500","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-11-20T22:20:17.812-0500","caller":"Gin_Scaffold/main.go:38","msg":"logger init success"}
+{"level":"DEBUG","time":"2020-11-20T22:20:24.516-0500","caller":"redis/vote.go:23","msg":"CreatePost in redis/vote"}
+{"level":"DEBUG","time":"2020-11-20T22:20:24.543-0500","caller":"redis/vote.go:29","msg":"error","error":"WRONGTYPE Operation against a key holding the wrong kind of value"}
+{"level":"ERROR","time":"2020-11-20T22:20:24.543-0500","caller":"controller/post.go:25","msg":"logic.CreatePost(p) failed","error":"WRONGTYPE Operation against a key holding the wrong kind of value"}
+{"level":"INFO","time":"2020-11-20T22:20:24.543-0500","caller":"logger/logger.go:79","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"::1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.083891422}
+{"level":"INFO","time":"2020-11-20T22:21:19.457-0500","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-11-20T22:21:19.457-0500","caller":"Gin_Scaffold/main.go:38","msg":"logger init success"}
+{"level":"DEBUG","time":"2020-11-20T22:21:22.115-0500","caller":"redis/vote.go:23","msg":"CreatePost in redis/vote"}
+{"level":"DEBUG","time":"2020-11-20T22:21:22.139-0500","caller":"redis/vote.go:29","msg":"error","error":"WRONGTYPE Operation against a key holding the wrong kind of value"}
+{"level":"ERROR","time":"2020-11-20T22:21:22.139-0500","caller":"controller/post.go:25","msg":"logic.CreatePost(p) failed","error":"WRONGTYPE Operation against a key holding the wrong kind of value"}
+{"level":"INFO","time":"2020-11-20T22:21:22.139-0500","caller":"logger/logger.go:79","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"::1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.086598265}
+{"level":"INFO","time":"2020-11-20T22:21:40.759-0500","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-11-20T22:21:40.759-0500","caller":"Gin_Scaffold/main.go:38","msg":"logger init success"}
+{"level":"INFO","time":"2020-11-20T22:22:00.360-0500","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-11-20T22:22:00.360-0500","caller":"Gin_Scaffold/main.go:38","msg":"logger init success"}
+{"level":"DEBUG","time":"2020-11-20T22:22:08.154-0500","caller":"redis/vote.go:23","msg":"CreatePost in redis/vote"}
+{"level":"DEBUG","time":"2020-11-20T22:22:08.182-0500","caller":"redis/vote.go:29","msg":"error","error":"WRONGTYPE Operation against a key holding the wrong kind of value"}
+{"level":"ERROR","time":"2020-11-20T22:22:08.182-0500","caller":"controller/post.go:25","msg":"logic.CreatePost(p) failed","error":"WRONGTYPE Operation against a key holding the wrong kind of value"}
+{"level":"INFO","time":"2020-11-20T22:22:08.182-0500","caller":"logger/logger.go:79","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"::1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.090894834}
+{"level":"INFO","time":"2020-11-20T22:22:18.675-0500","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-11-20T22:22:18.675-0500","caller":"Gin_Scaffold/main.go:38","msg":"logger init success"}
+{"level":"DEBUG","time":"2020-11-20T22:22:21.949-0500","caller":"redis/vote.go:23","msg":"CreatePost in redis/vote"}
+{"level":"DEBUG","time":"2020-11-20T22:22:21.975-0500","caller":"redis/vote.go:29","msg":"error","error":"WRONGTYPE Operation against a key holding the wrong kind of value"}
+{"level":"ERROR","time":"2020-11-20T22:22:21.975-0500","caller":"controller/post.go:25","msg":"logic.CreatePost(p) failed","error":"WRONGTYPE Operation against a key holding the wrong kind of value"}
+{"level":"INFO","time":"2020-11-20T22:22:21.975-0500","caller":"logger/logger.go:79","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"::1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.085284409}
+{"level":"INFO","time":"2020-11-20T22:22:30.594-0500","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-11-20T22:22:30.595-0500","caller":"Gin_Scaffold/main.go:38","msg":"logger init success"}
+{"level":"DEBUG","time":"2020-11-20T22:22:33.074-0500","caller":"redis/vote.go:23","msg":"CreatePost in redis/vote"}
+{"level":"DEBUG","time":"2020-11-20T22:22:33.102-0500","caller":"redis/vote.go:29","msg":"error","error":"WRONGTYPE Operation against a key holding the wrong kind of value"}
+{"level":"ERROR","time":"2020-11-20T22:22:33.102-0500","caller":"controller/post.go:25","msg":"logic.CreatePost(p) failed","error":"WRONGTYPE Operation against a key holding the wrong kind of value"}
+{"level":"INFO","time":"2020-11-20T22:22:33.102-0500","caller":"logger/logger.go:79","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"::1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.094193323}
+{"level":"INFO","time":"2020-11-20T22:23:34.299-0500","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-11-20T22:23:34.299-0500","caller":"Gin_Scaffold/main.go:38","msg":"logger init success"}
+{"level":"DEBUG","time":"2020-11-20T22:23:43.335-0500","caller":"redis/vote.go:24","msg":"CreatePost in redis/vote"}
+{"level":"DEBUG","time":"2020-11-20T22:23:43.361-0500","caller":"redis/vote.go:30","msg":"error","error":"WRONGTYPE Operation against a key holding the wrong kind of value"}
+{"level":"ERROR","time":"2020-11-20T22:23:43.361-0500","caller":"controller/post.go:25","msg":"logic.CreatePost(p) failed","error":"WRONGTYPE Operation against a key holding the wrong kind of value"}
+{"level":"INFO","time":"2020-11-20T22:23:43.361-0500","caller":"logger/logger.go:79","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"::1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.096686126}
+{"level":"INFO","time":"2020-11-20T22:27:12.172-0500","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-11-20T22:27:12.172-0500","caller":"Gin_Scaffold/main.go:38","msg":"logger init success"}
+{"level":"DEBUG","time":"2020-11-20T22:27:17.543-0500","caller":"redis/vote.go:23","msg":"CreatePost in redis/vote"}
+{"level":"DEBUG","time":"2020-11-20T22:27:17.569-0500","caller":"redis/vote.go:28","msg":"error"}
+{"level":"INFO","time":"2020-11-20T22:27:17.570-0500","caller":"logger/logger.go:79","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"::1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.095344171}
+{"level":"DEBUG","time":"2020-11-20T22:28:47.441-0500","caller":"logic/vote.go:11","msg":"VoteForPost","userID":6486237024096256,"postID":7299923863146496,"direction":1}
+{"level":"DEBUG","time":"2020-11-20T22:28:47.441-0500","caller":"redis/vote.go:34","msg":"postStr in redis/vote.VoteForPost","postStr":"7299923863146496"}
+{"level":"DEBUG","time":"2020-11-20T22:28:47.472-0500","caller":"redis/vote.go:37","msg":"postTime in redis/vote.VoteForPost","postTime":1605929237}
+{"level":"DEBUG","time":"2020-11-20T22:28:47.472-0500","caller":"redis/vote.go:38","msg":"time.Now().Unix() in redis/vote.VoteForPost","time.Now().Unix()":1605929327}
+{"level":"INFO","time":"2020-11-20T22:28:47.531-0500","caller":"logger/logger.go:79","msg":"/api/v1/vote","status":200,"method":"POST","path":"/api/v1/vote","query":"","ip":"::1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.090729832}

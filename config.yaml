@@ -28,5 +28,4 @@ redis:
   host: "35.243.147.176"
   port: 6379
   db: 0
-  password: ""
   pool_size: 100

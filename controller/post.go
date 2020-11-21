@@ -16,7 +16,7 @@ func CreatePostHandler(c *gin.Context) {
 		ResponseError(c, CodeInvalidParam)
 		return
 	}
-	userID, err := getCurrentUser(c)
+	userID, err := getCurrentUserID(c)
 	if err != nil {
 		ResponseError(c, CodeNeedLogin)
 	}
