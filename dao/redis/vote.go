@@ -17,9 +17,10 @@ const (
 
 var (
 	ErrVoteTimeExpire = errors.New("INVALID VOTE TIME")
+	ErrVoteRepeated   = errors.New("REPEATED VOTE")
 )
 
-func CreatePost(postID int64) error {
+func CreatePost(postID int64, communityID int64) error {
 	pipeline := rdb.TxPipeline()
 
 	zap.L().Debug("CreatePost in redis/vote")
@@ -32,6 +33,8 @@ func CreatePost(postID int64) error {
 		Score:  float64(time.Now().Unix()),
 		Member: postID,
 	})
+	cKey := getRedisKey(KeyCommunitySetPF + strconv.Itoa(int(communityID)))
+	pipeline.SAdd(cKey, postID)
 	_, err := pipeline.Exec()
 	return err
 }
@@ -49,9 +52,9 @@ func VoteForPost(userID string, postID int64, value float64) error {
 	ov := rdb.ZScore(getRedisKey(KeyPostVotedPre+postStr), userID).Val()
 
 	// 更新：如果这一次投票的值和之前保存的值一致，就提示不允许重复投票
-	//if value == ov {
-	//	return ErrVoteRepeated
-	//}
+	if value == ov {
+		return ErrVoteRepeated
+	}
 	var op float64
 	if value > ov {
 		op = 1
