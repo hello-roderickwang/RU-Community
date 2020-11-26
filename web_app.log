@@ -595,3 +595,7 @@
 {"level":"DEBUG","time":"2020-11-20T22:28:47.472-0500","caller":"redis/vote.go:37","msg":"postTime in redis/vote.VoteForPost","postTime":1605929237}
 {"level":"DEBUG","time":"2020-11-20T22:28:47.472-0500","caller":"redis/vote.go:38","msg":"time.Now().Unix() in redis/vote.VoteForPost","time.Now().Unix()":1605929327}
 {"level":"INFO","time":"2020-11-20T22:28:47.531-0500","caller":"logger/logger.go:79","msg":"/api/v1/vote","status":200,"method":"POST","path":"/api/v1/vote","query":"","ip":"::1","user-agent":"PostmanRuntime/7.26.5","errors":"","cost":0.090729832}
+{"level":"INFO","time":"2020-11-20T22:34:11.797-0500","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-11-20T22:34:11.798-0500","caller":"Gin_Scaffold/main.go:38","msg":"logger init success"}
+{"level":"INFO","time":"2020-11-20T22:40:50.622-0500","caller":"logger/logger.go:45","msg":"init logger success"}
+{"level":"DEBUG","time":"2020-11-20T22:40:50.622-0500","caller":"Gin_Scaffold/main.go:38","msg":"logger init success"}

@@ -20,12 +20,19 @@ var (
 )
 
 func CreatePost(postID int64) error {
+	pipeline := rdb.TxPipeline()
+
 	zap.L().Debug("CreatePost in redis/vote")
-	_, err := rdb.ZAdd(getRedisKey(KeyPostTime), redis.Z{
+	pipeline.ZAdd(getRedisKey(KeyPostTime), redis.Z{
 		Score:  float64(time.Now().Unix()),
 		Member: postID,
-	}).Result()
-	zap.L().Debug("error", zap.Error(err))
+	})
+
+	pipeline.ZAdd(getRedisKey(KeyPostScore), redis.Z{
+		Score:  float64(time.Now().Unix()),
+		Member: postID,
+	})
+	_, err := pipeline.Exec()
 	return err
 }
 

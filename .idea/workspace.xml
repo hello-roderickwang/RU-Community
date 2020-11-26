@@ -10,19 +10,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba334718-c242-45d7-8c2f-1a3ac3e0c5f1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dao/redis/vote.go" afterDir="false" />
+    <list default="true" id="ba334718-c242-45d7-8c2f-1a3ac3e0c5f1" name="Default Changelist" comment="update vote function">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/post.go" beforeDir="false" afterPath="$PROJECT_DIR$/controller/post.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/request.go" beforeDir="false" afterPath="$PROJECT_DIR$/controller/request.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/vote.go" beforeDir="false" afterPath="$PROJECT_DIR$/controller/vote.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dao/redis/keys.go" beforeDir="false" afterPath="$PROJECT_DIR$/dao/redis/keys.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dao/redis/redis.go" beforeDir="false" afterPath="$PROJECT_DIR$/dao/redis/redis.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logic/post.go" beforeDir="false" afterPath="$PROJECT_DIR$/logic/post.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logic/vote.go" beforeDir="false" afterPath="$PROJECT_DIR$/logic/vote.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dao/redis/vote.go" beforeDir="false" afterPath="$PROJECT_DIR$/dao/redis/vote.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/params.go" beforeDir="false" afterPath="$PROJECT_DIR$/models/params.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web_app.log" beforeDir="false" afterPath="$PROJECT_DIR$/web_app.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -105,7 +96,8 @@
     <MESSAGE value="Update create translate author name" />
     <MESSAGE value="Update query post by pages" />
     <MESSAGE value="Update post vote function" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update post vote function" />
+    <MESSAGE value="update vote function" />
+    <option name="LAST_COMMIT_MESSAGE" value="update vote function" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
