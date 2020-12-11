@@ -11,9 +11,13 @@ import (
 var Conf = new(AppConfig)
 
 type AppConfig struct {
-	Name         string `mapstructure:"name"`
-	Mode         string `mapstructure:"mode"`
-	Port         int    `mapstructure:"port"`
+	Name      string `mapstructure:"name"`
+	Mode      string `mapstructure:"mode"`
+	Version   string `mapstructure:"version"`
+	StartTime string `mapstructure:"start_time"`
+	MachineID int64  `mapstructure:"machine_id"`
+	Port      int    `mapstructure:"port"`
+
 	*LogConfig   `mapstructure:"log"`
 	*MySQLConfig `mapstructure:"mysql"`
 	*RedisConfig `mapstructure:"redis"`
@@ -47,7 +51,7 @@ type LogConfig struct {
 }
 
 func Init() error {
-	viper.SetConfigFile("./config.yaml")
+	viper.SetConfigFile("./conf/config.yaml")
 
 	viper.WatchConfig()
 	viper.OnConfigChange(func(in fsnotify.Event) {
