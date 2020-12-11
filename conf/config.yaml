@@ -1,0 +1,36 @@
+name: "web_app"
+#mode: "debug"
+mode: "release"
+port: 8080
+version: "v0.0.1"
+start_time: "2020-11-01"
+machine_id: 1
+
+auth:
+  jwt_expire: 8760
+
+log:
+  level: "debug"
+  filename: "web_app.log"
+  max_size: 200
+  max_age: 30
+  max_backups: 7
+
+mysql:
+#  host: "database-gomysql.chvwwy2ex6ot.us-east-2.rds.amazonaws.com"
+  host: 35.225.37.119
+#  port: 3306
+  port: 3306
+#  user: "admin"
+  user: root
+#  password: "MySQL4GO"
+  password: wxnpassword
+  db: "bluebell"
+  max_open_conns: 100
+  max_idle_conns: 20
+
+redis:
+  host: "35.225.37.119"
+  port: 6379
+  db: 0
+  pool_size: 100
